@@ -1,0 +1,34 @@
+{
+    "name": "lumphp/yar-simple-server",
+    "type": "library",
+    "description": "a simple yar coroutine server base on swoole4.4+",
+    "keywords": [
+        "coroutine",
+        "yar-server",
+        "swoole4.4"
+    ],
+    "authors": [
+        {
+            "name": "lumphp",
+            "email": "lumphp@163.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "ext-yar": "*",
+        "lumphp/swoole-handler": "v0.1"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Lum\\Yar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lum\\Service\\": "example/service/"
+        }
+    },
+    "prefer-stable": true
+}
