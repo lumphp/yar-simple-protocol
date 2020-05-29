@@ -14,7 +14,6 @@
     ],
     "require": {
         "php": "^7.2.5",
-        "ext-yar": "*",
         "lumphp/server": "v0.1"
     },
     "require-dev": {
